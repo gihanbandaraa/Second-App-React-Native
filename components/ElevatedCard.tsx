@@ -1,8 +1,7 @@
 import { Text, StyleSheet, View, ScrollView } from 'react-native'
 import React, { Component } from 'react'
 
-export default class ElevatedCard extends Component {
-  render() {
+export default function ElevatedCard() {
     return (
       <View>
         <Text style={styles.headingText}>Elevated Card</Text>
@@ -35,7 +34,6 @@ export default class ElevatedCard extends Component {
         </ScrollView>
       </View>
     )
-  }
 }
 
 const styles = StyleSheet.create({
