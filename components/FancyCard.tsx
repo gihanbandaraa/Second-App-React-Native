@@ -43,7 +43,12 @@ const styles = StyleSheet.create({
         borderRadius: 8
     },
     cardElevated: {
-        backgroundColor:'#d9d9d9'
+        backgroundColor:'#d9d9d9',
+        elevation:3,
+        shadowOffset:{
+            width:1,
+            height:1
+        }
     },
     cardImage: {
         height: 180,
